@@ -1,0 +1,25 @@
+{
+  "name": "node-perf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "prod": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "os-utils": "0.0.14"
+  }
+}
